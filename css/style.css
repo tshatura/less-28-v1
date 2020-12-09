@@ -1854,8 +1854,11 @@ template {
   .footer-bottom-image__mt {
     margin-top: 0px;
   }
+  .modal__dialog {
+    padding: 30px 20px;
+  }
   .modal__dialog--visible {
-    height: 90%;
+    max-height: 80%;
     overflow-y: scroll;
   }
   .modal__button {
@@ -1962,8 +1965,8 @@ template {
     margin-top: -30px;
   }
   .modal__dialog--visible {
-    width: 80%;
     height: 90%;
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */

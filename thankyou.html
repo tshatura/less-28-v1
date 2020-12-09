@@ -90,8 +90,10 @@
   <!-- /.breadcrumb -->
   <section class="hotel">
     <div class="container">
-      <h1>Огромное спасибо, что проверяешь мое ДЗ</h1>
-      <p>В случае, если я за сегодня доделаю все долги, то я открою бутылочку пива!</p>
+      <p>Thank you for your message. We will get back to you as soon as possible.</p>
+      <form action="index.html">
+        <button class="button" type="submit">Back</button>
+      </form>
     </div>
     <!-- /.container -->
   </section>
@@ -179,12 +181,12 @@
         <!-- /.footer__contact-details -->
         <div class="footer__contact-form">
           <h3 class="footer__title footer__title--details">Send us a message</h3>
-          <form action="send.php" method="POST" class="footer__form">
+          <form action="send.php" method="POST" class="form footer__form">
             <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name">
             <input type="text" class="input footer__input" placeholder="Phone Number*" name="phone">
-            <textarea class="footer__message" placeholder="Message" name="message"></textarea>
+            <textarea class="message footer__message" placeholder="Message" name="message"></textarea>
             <button class="button footer__button" type="submit">Send</button>
-            <span class="footer__info">* Required Fields</span>
+            <span class="info footer__info">* Required Fields</span>
           </form>
         </div>
         <!-- /.footer__contacts-form -->
